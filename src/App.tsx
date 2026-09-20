@@ -61,25 +61,25 @@ function App(): React.JSX.Element {
                     </Col>
                 </Row>
             </Container>
-            <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
-            <hr></hr>
+
+            {<DoubleHalf></DoubleHalf>}
+
             <ChooseTeam></ChooseTeam>
-            <hr></hr>
+
             <ColoredBox></ColoredBox>
-            <hr></hr>
+
             <ShoveBox></ShoveBox>
-            <hr></hr>
+
             <Counter></Counter>
             <>
                 <RevealAnswer></RevealAnswer>
-                <hr />
+
                 <StartAttempt></StartAttempt>
-                <hr />
+
                 <TwoDice></TwoDice>
-                <hr />
+
                 <ChangeType></ChangeType>
-                <hr />
+
                 <CycleHoliday></CycleHoliday>
             </>
         </div>
